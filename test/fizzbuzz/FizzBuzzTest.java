@@ -19,4 +19,9 @@ class FizzBuzzTest {
 		assertEquals("1", fb.fizzBuzz(1));
 	}
 
+	@Test
+	void test_fb2() {
+		assertEquals("2", fb.fizzBuzz(2));
+	}
+
 }
